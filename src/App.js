@@ -1,10 +1,11 @@
-import Scrollin from './Components/Scrollin';
 
-
-function App() {
+import React from 'react';
+import Hello from './Hello';
+const App = () => {
 	  return (
-		      <Scrollin/>
+		      <div>
+		        <Hello />
+		      </div>
 		    );
-}
-
-export default App;
+};
+export default App; 
