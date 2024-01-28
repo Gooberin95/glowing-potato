@@ -1,28 +1,35 @@
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-}
 
-.app {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+body, html {
+	  margin: 0;
+	    font-family: 'Arial', sans-serif;
+    }
 
+    .app {
+	      width: 100%;
+	        height: 100vh;
+		  display: flex;
+		    flex-direction: column;
+		      overflow: hidden; /* Hide the default scroll bars at the body level */
+	      }
 
-.split-layout {
-  display: flex;
-  height: 100%;
-}
+	      .split-layout {
+		        display: flex;
+			  height: 100%;
+			    overflow: hidden; /* Hide the default scroll bars at the split-layout level */
+		    }
 
-.left {
-  flex: 1;
-  padding: 20px;
-  background-color: gold;
-}
+		    .left {
+			      flex: 1;
+			        padding: 20px;
+				 background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+				    overflow: hidden; /* Hide the scroll bars for the left side */
+			    }
 
-.right {
-  flex: 2;
-  padding: 20px;
-}
+			    .right {
+				      flex: 2;
+				        /* height: "3000px";  Remove this line as it's not needed and is causing a syntax error */
+				        padding: 20px;
+					  overflow-y: scroll; /* Enable vertical scrolling for the right side */
+					    /* height: 100%; Remove this line as it's already covered by flex: 2; */
+				  }
+
