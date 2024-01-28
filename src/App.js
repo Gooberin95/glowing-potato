@@ -16,7 +16,7 @@ const App = () => {
 		      <div className="app">
 		        <Navbar />
 		        <div className="split-layout">
-		          <div className="left" style={{borderRight: "solid 8px", borderRadius: "4px"}}>
+		          <div className="left" style={{borderTop: "solid 8px"}}>
 
 
 
@@ -36,8 +36,8 @@ const App = () => {
 
 
 				  </div>
-		  <div className="right" style={{ height: "100%", overflowY: "scroll", background: "linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%)" }}>
-		    <div style={{ background: "white" }}>
+		  <div className="right" style={{ borderTop: "solid 8px", borderLeft: " solid 20px", overflowY: "scroll", background: "linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%)" }}>
+		    <div >
 		      <h1>Welcome to My Website</h1>
 		      <p>This is a simple example of a split-layout React website.</p>
 		      <p>Add your content here.</p>
@@ -51,7 +51,7 @@ const App = () => {
 
 	const Navbar = () => {
 	  return (
-		      <Nav className="justify-content-center" activeKey="/home" style={{backgroundColor: "white"}}>
+		      <Nav className="justify-content-center" activeKey="/home"  style={{backgroundColor: "white"}}>
 		          <Nav.Item>
 		            <Nav.Link href="/home">Active</Nav.Link>
 		          </Nav.Item>
