@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Github Pages branch
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+	  <Card style={{width: '20rem'}}>
+	  	<Card.Img variant="top" src=""/>
+	  	<Card.Body>
+	  		<Card.Title>
+	  Gym Barbell
+	  		</Card.Title>
+	  <Card.Text>
+	  Testing and then more testing and after that, probably might do some testing
+	  </Card.Text>
+	  <Button variant="primary">Testing</Button>
+	  	</Card.Body>
+	  </Card>
   );
 }
 
