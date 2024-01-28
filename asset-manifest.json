@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/glowing-potato/static/css/main.226942f8.css",
-    "main.js": "/glowing-potato/static/js/main.cc6efb0d.js",
+    "main.js": "/glowing-potato/static/js/main.37e26c40.js",
     "static/media/profilePic.jpg": "/glowing-potato/static/media/profilePic.1d4ef7d55fc7e905f441.jpg",
     "static/media/mavisFour.jpg": "/glowing-potato/static/media/mavisFour.f728b3a80424b21d9924.jpg",
     "static/media/mavisOne.jpg": "/glowing-potato/static/media/mavisOne.e393695ea13df0a2f6e5.jpg",
     "index.html": "/glowing-potato/index.html",
     "main.226942f8.css.map": "/glowing-potato/static/css/main.226942f8.css.map",
-    "main.cc6efb0d.js.map": "/glowing-potato/static/js/main.cc6efb0d.js.map"
+    "main.37e26c40.js.map": "/glowing-potato/static/js/main.37e26c40.js.map"
   },
   "entrypoints": [
     "static/css/main.226942f8.css",
-    "static/js/main.cc6efb0d.js"
+    "static/js/main.37e26c40.js"
   ]
 }
