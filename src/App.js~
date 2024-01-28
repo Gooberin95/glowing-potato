@@ -25,25 +25,24 @@ const App = () => {
 		          src={profilePic}
 		        />
 		        <Figure.Caption>
+		                Hello, I'm Mavis Simpson, a passionate Event Planner and Fashion Consultant dedicated to bringing creativity and elegance to every occasion. With a keen eye for detail and a flair for fashion, I specialize in curating memorable events that reflect the unique style and preferences of my clients. From meticulously planned gatherings to personalized fashion consultations, I thrive on turning visions into reality. Let's collaborate to create experiences and styles that leave lasting impressions
+		        </Figure.Caption>
+		      </Figure>
 
-					<p style={{fontSize: "20px"}}> Hello, I'm Mavis Simpson, a passionate Event Planner and Fashion Consultant dedicated to bringing creativity and elegance to every occasion. With a keen eye for detail and a flair for fashion, I specialize in curating memorable events that reflect the unique style and preferences of my clients. From meticulously planned gatherings to personalized fashion consultations, I thrive on turning visions into reality. Let's collaborate to create experiences and styles that leave lasting impressions</p>
-				</Figure.Caption>
-			      </Figure>
 
+		          </div>
+		          <div className="right">
+		            <h1>Welcome to My Website</h1>
+		            <p>This is a simple example of a split-layout React website.</p>
+		            <p>Add your content here.</p>
+		  	<img src={photoFour} width="100%" height="650px"/>
+		          </div>
+		        </div>
+		      </div>
+		    );
+};
 
-				  </div>
-				  <div className="right">
-				    <h1>Welcome to My Website</h1>
-				    <p>This is a simple example of a split-layout React website.</p>
-				    <p>Add your content here.</p>
-				<img src={photoFour} width="100%" height="650px"/>
-				  </div>
-				</div>
-			      </div>
-			    );
-	};
-
-	const Navbar = () => {
+const Navbar = () => {
 	  return (
 		      <Nav className="justify-content-center" activeKey="/home" style={{backgroundColor: "black"}}>
 		          <Nav.Item>
