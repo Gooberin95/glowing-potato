@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/glowing-potato/static/css/main.558e7124.css",
-    "main.js": "/glowing-potato/static/js/main.9df417f9.js",
-    "static/media/visionary.jpg": "/glowing-potato/static/media/visionary.5bb8e88da2f956ad8927.jpg",
+    "main.css": "/glowing-potato/static/css/main.241951ba.css",
+    "main.js": "/glowing-potato/static/js/main.d30c9374.js",
+    "static/media/sheep.jpg": "/glowing-potato/static/media/sheep.3bad701bb7830ea34b50.jpg",
     "index.html": "/glowing-potato/index.html",
-    "main.558e7124.css.map": "/glowing-potato/static/css/main.558e7124.css.map",
-    "main.9df417f9.js.map": "/glowing-potato/static/js/main.9df417f9.js.map"
+    "main.241951ba.css.map": "/glowing-potato/static/css/main.241951ba.css.map",
+    "main.d30c9374.js.map": "/glowing-potato/static/js/main.d30c9374.js.map"
   },
   "entrypoints": [
-    "static/css/main.558e7124.css",
-    "static/js/main.9df417f9.js"
+    "static/css/main.241951ba.css",
+    "static/js/main.d30c9374.js"
   ]
 }
