@@ -2,6 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Nav } from 'react-bootstrap';
 import photo from './mavisOne.jpg';
+import photoFour from './mavisFour.jpg';
+import profilePic from './profilePic.jpg';
 import './App.css';
 
 const App = () => {
@@ -10,12 +12,13 @@ const App = () => {
 		        <Navbar />
 		        <div className="split-layout">
 		          <div className="left">
-		            <img src={photo} width="650px" alt="Your Photo" />
+		            <img src={profilePic} width="650px" height="70%" alt="Your Photo" />
 		          </div>
 		          <div className="right">
 		            <h1>Welcome to My Website</h1>
 		            <p>This is a simple example of a split-layout React website.</p>
 		            <p>Add your content here.</p>
+		  	<img src={photoFour} width="100%" height="650px"/>
 		          </div>
 		        </div>
 		      </div>
