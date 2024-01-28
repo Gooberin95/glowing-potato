@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import Image from 'react-bootstrap/Image';
 import { Nav } from 'react-bootstrap';
 import photo from './mavisOne.jpg';
 import photoFour from './mavisFour.jpg';
@@ -11,8 +12,8 @@ const App = () => {
 		      <div className="app">
 		        <Navbar />
 		        <div className="split-layout">
-		          <div className="left" style={{border: "solid 8px", borderRadius: "9px"}}>
-		            <img src={profilePic} width="650px" height="70%" alt="Your Photo" />
+		          <div className="left" style={{borderRight: "solid 8px", borderRadius: "4px"}}>
+		   	<Image src={profilePic} height="450" rounded />
 		          </div>
 		          <div className="right">
 		            <h1>Welcome to My Website</h1>
@@ -27,7 +28,7 @@ const App = () => {
 
 const Navbar = () => {
 	  return (
-		      <Nav className="justify-content-center" activeKey="/home">
+		      <Nav className="justify-content-center" activeKey="/home" style={{backgroundColor: "black"}}>
 		          <Nav.Item>
 		            <Nav.Link href="/home">Active</Nav.Link>
 		          </Nav.Item>
