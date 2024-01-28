@@ -1,4 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import { Nav } from 'react-bootstrap';
+import photo from './mavisOne.jpg';
 import './App.css';
 
 const App = () => {
@@ -7,7 +10,7 @@ const App = () => {
 		        <Navbar />
 		        <div className="split-layout">
 		          <div className="left">
-		            <img src="your_photo.jpg" alt="Your Photo" />
+		            <img src={photo} width="650px" alt="Your Photo" />
 		          </div>
 		          <div className="right">
 		            <h1>Welcome to My Website</h1>
@@ -21,14 +24,24 @@ const App = () => {
 
 const Navbar = () => {
 	  return (
-		      <nav className="navbar">
-		        <ul>
-		          <li>Home</li>
-		          <li>About</li>
-		          <li>Contact</li>
-		        </ul>
-		      </nav>
+		      <Nav className="justify-content-center" activeKey="/home">
+		          <Nav.Item>
+		            <Nav.Link href="/home">Active</Nav.Link>
+		          </Nav.Item>
+		          <Nav.Item>
+		            <Nav.Link eventKey="link-1">Link</Nav.Link>
+		          </Nav.Item>
+		          <Nav.Item>
+		            <Nav.Link eventKey="link-2">Link</Nav.Link>
+		          </Nav.Item>
+		          <Nav.Item>
+		            <Nav.Link eventKey="disabled" disabled>
+		              Disabled
+		            </Nav.Link>
+		          </Nav.Item>
+		        </Nav>
 		    );
 };
 
 export default App;
+

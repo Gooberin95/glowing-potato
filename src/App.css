@@ -10,11 +10,6 @@ body {
   flex-direction: column;
 }
 
-.navbar {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-}
 
 .split-layout {
   display: flex;
