@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Hello from './Hello';
 const App = () => {
@@ -7,6 +8,4 @@ const App = () => {
 		      </div>
 		    );
 };
-
-export default App;
-
+export default App; 
