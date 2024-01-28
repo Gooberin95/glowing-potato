@@ -11,7 +11,7 @@ const App = () => {
 		      <div className="app">
 		        <Navbar />
 		        <div className="split-layout">
-		          <div className="left">
+		          <div className="left" style={{border: "solid 8px", borderRadius: "9px"}}>
 		            <img src={profilePic} width="650px" height="70%" alt="Your Photo" />
 		          </div>
 		          <div className="right">
