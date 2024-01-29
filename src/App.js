@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import Topnav from './Topnav.js';
 import React, { useState, useEffect } from 'react';
 import Figure from 'react-bootstrap/Figure';
+import { Link ,Element } from 'react-scroll';
 import Image from 'react-bootstrap/Image';
 import { Nav } from 'react-bootstrap';
 import photo from './mavisOne.jpg';
@@ -15,7 +17,7 @@ const App = () => {
 	  return (
 		  <>
 		      <div className="app">
-		        <Navbar />
+		        <Topnav />
 		        <div className="split-layout">
 		          <div className="left" style={{borderTop: "solid 8px"}}>
 
@@ -66,13 +68,13 @@ const App = () => {
 	  return (
 		      <Nav className="justify-content-center" variant="tabs"   style={{height: "100px", display: "flex", alignItems: "center", backgroundColor: "white"}}>
 		          <Nav.Item>
-		            <Nav.Link href="/home">About</Nav.Link>
+		            <Nav.Link key="3" to="3" smooth={true} duration={500}>About test</Nav.Link>
 		          </Nav.Item>
 		          <Nav.Item>
 		            <Nav.Link eventKey="link-1">Fashion</Nav.Link>
 		          </Nav.Item>
 		          <Nav.Item>
-		            <Nav.Link eventKey="link-2">Event Planning</Nav.Link>
+		            <Nav.Link key="15" to="card-15" smooth={true} duration={500}>Event Planning test</Nav.Link>
 		          </Nav.Item>
 		          <Nav.Item>
 		            <Nav.Link eventKey="disabled">

@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 import mavisOne from './mavisOne.jpg';
 import { Link, Element } from 'react-scroll';
@@ -14,15 +15,14 @@ function Hello() {
 	  return (
 		      <div>
 		        {/* Navbar with scroll links */}
-		        <nav>
+		        <Nav>
 		          {cardArray.map((card) => (
-				            <Link key={card.id} to={`card-${card.id}`} smooth={true} duration={500}>
+				            <Nav.Link key={card.id} to={`card-${card.id}`} smooth={true} duration={500}>
 				              {card.title}
-				            </Link>
+				            </Nav.Link>
 				          ))}
-		        </nav>
+		        </Nav>
 
-		        {/* Cards with corresponding Elements for scrolling */}
 		        <div>
 		          {cardArray.map((card) => (
 				            <Element key={card.id} name={`card-${card.id}`}>
