@@ -51,19 +51,19 @@ const App = () => {
 
 	const Navbar = () => {
 	  return (
-		      <Nav className="justify-content-center" activeKey="/home"  style={{backgroundColor: "white"}}>
+		      <Nav className="justify-content-center" variant="tabs"   style={{height: "100px", display: "flex", alignItems: "center", backgroundColor: "white"}}>
 		          <Nav.Item>
-		            <Nav.Link href="/home">Active</Nav.Link>
+		            <Nav.Link href="/home">About</Nav.Link>
 		          </Nav.Item>
 		          <Nav.Item>
-		            <Nav.Link eventKey="link-1">Link</Nav.Link>
+		            <Nav.Link eventKey="link-1">Fashion</Nav.Link>
 		          </Nav.Item>
 		          <Nav.Item>
-		            <Nav.Link eventKey="link-2">Link</Nav.Link>
+		            <Nav.Link eventKey="link-2">Event Planning</Nav.Link>
 		          </Nav.Item>
 		          <Nav.Item>
-		            <Nav.Link eventKey="disabled" disabled>
-		              Disabled
+		            <Nav.Link eventKey="disabled">
+		             Services 
 		            </Nav.Link>
 		          </Nav.Item>
 		        </Nav>
